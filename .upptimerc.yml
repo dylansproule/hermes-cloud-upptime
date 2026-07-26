@@ -79,3 +79,22 @@ customCSS: |
     height: 24px !important;
     gap: 2px !important;
   }
+
+  /* Replace the latency silhouette with operational availability ticks. */
+  .live-status article.graph {
+    --background: repeating-linear-gradient(
+      90deg,
+      #10a37f 0 3px,
+      transparent 3px 7px
+    ) !important;
+    background-size: 44% 44px !important;
+    background-position: right 2rem center !important;
+  }
+
+  @media (max-width: 700px) {
+    .live-status article.graph {
+      background-size: calc(100% - 2rem) 36px !important;
+      background-position: center bottom 1rem !important;
+      padding-bottom: 4.5rem !important;
+    }
+  }
