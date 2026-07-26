@@ -6,7 +6,7 @@ sites:
     url: https://www.hostedhermes.com
 
 status-website:
-  cname: ://hostedhermes.com
+  cname: status.hostedhermes.com
   name: "System Status"
   introTitle: "Operational Status & Metrics"
   logoUrl: https://hostedhermes.com/_next/image?url=%2Flogo.png&w=96&q=75
