@@ -7,7 +7,7 @@ sites:
 
 status-website:
   cname: ://hostedhermes.com
-  baseUrl: ""
+  baseUrl: /
   name: "System Status"
   introTitle: "Operational Status & Metrics"
   logoUrl: https://hostedhermes.com/_next/image?url=%2Flogo.png&w=96&q=75
